@@ -1,0 +1,86 @@
+body {
+    background-color:white;
+}
+
+.code-img  {
+    padding: 12em 0;
+    background-image: url('../images/Code\ img.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    max-width: 4500px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.code-heading {
+    margin-top: -0.2em;
+    font-weight: bold;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.code-heading .code-intro {
+    border: hidden;
+    
+}
+
+.code-intro {
+    margin-bottom: 0.1em;
+    font-size: 2em;
+    color: black;
+}
+
+.nix {
+    color: white;
+    margin: 20%;
+    font-size: 100px;
+}
+
+div {
+    display: block;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+nav a {
+    color:white;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 25px;
+}
+
+aside {
+    flex: 1;
+    background-color: white;
+    padding: 80px;
+    text-align: right;
+    font-size: 25px;
+    display: block;
+    border: 15px solid black;
+    margin: 4%;
+    background-image: url('../images/IMG_54967165ED75-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 17%;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#right {
+    text-align: right;
+    justify-content: right;
+}
