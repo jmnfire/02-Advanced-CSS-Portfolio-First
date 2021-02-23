@@ -1,9 +1,5 @@
 body {
-    background-color:white;
-}
-
-.code-img  {
-    padding: 12em 0;
+    background-color: white;
     background-image: url('../images/Code\ img.png');
     background-size: 60%;
     background-repeat: no-repeat;
@@ -11,7 +7,7 @@ body {
     max-width: 4500px;
     margin: 0 auto;
     background-attachment: fixed;
-    display: flex;
+    flex: 400px;
 }
 
 .code-heading {
@@ -21,10 +17,6 @@ body {
     text-transform: uppercase;
 }
 
-.code-heading .code-intro {
-    border: hidden;
-    
-}
 
 .code-intro {
     margin-bottom: 0.1em;
@@ -34,20 +26,20 @@ body {
 
 .nix {
     color: white;
-    margin: 20%;
-    font-size: 100px;
+    margin: 40%;
+    font-size: 90px;
 }
 
-div {
-    display: block;
-    width: 300px;
+
+header div {
+    width: 203px;
     border: 15px solid black;
     padding: 50px;
     margin: 20px;
 
 }
 
-nav {
+header nav {
     display: flex;
     background-color: black;
 }
@@ -60,27 +52,62 @@ nav a {
     font-size: 25px;
 }
 
-aside {
+section {
     flex: 1;
     background-color: white;
-    padding: 80px;
-    text-align: right;
+    padding: 100px;
     font-size: 25px;
     display: block;
     border: 15px solid black;
-    margin: 4%;
+    margin: 0%;
     background-image: url('../images/IMG_54967165ED75-1.jpeg');
     background-repeat: no-repeat;
     background-size: 17%;
-    
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #right {
     text-align: right;
     justify-content: right;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+.footer-nav a {
+    color:white;
+    padding: 20px 20px;
+    text-align: center;
+    text-align: end;
+    font-size: 25px;
+}
+
+.footer-nav {
+    display: flex;
+    background-color: black;
+    margin-top: 15%;
+}
+
+code {
+    background: white;
+    color: black;
+    display: block;
+    font-size: 18px;
+    padding: 24px 15px;
+    text-align: left;
+    border: 15px solid black;
+    font-weight: bold;
+}
+
+header,
+aside,
+footer {
+margin: 0 1.5% 24px 1.5%;
+}
+
+footer,
+header {
+    clear: both;
+    margin-bottom: 50vh;
 }
