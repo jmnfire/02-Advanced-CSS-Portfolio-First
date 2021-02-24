@@ -10,6 +10,14 @@ body {
     flex: 400px;
 }
 
+html, body {
+    position:flex;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
 .code-heading {
     margin-top: -0.2em;
     font-weight: bold;
@@ -56,7 +64,7 @@ nav a {
 section {
     flex: 1;
     background-color: white;
-    padding: 100px;
+    padding: 50px;
     font-size: 25px;
     display: block;
     border: 15px solid black;
@@ -79,19 +87,13 @@ aside {
 
 .footer-nav a {
     color:white;
-    padding: 20px 20px;
-    text-align: center;
-    text-align: end;
     font-size: 25px;
     display: flex;
-    margin-right: 12%;
-    margin-left: 1%;
 }
 
 .footer-nav {
     display: flex;
     background-color: black;
-    margin-top: 15%;
 }
 
 code {
@@ -127,6 +129,4 @@ margin: 0 1.5% 24px 1.5%;
 footer,
 header {
     clear: both;
-    margin-bottom: 50vh;
 }
-
