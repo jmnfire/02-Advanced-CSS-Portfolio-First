@@ -1,7 +1,7 @@
 body {
-    background-color: white;
+    background-color:lightgray;
     background-image: url('../images/Code\ img.png');
-    background-size: 60%;
+    background-size: 45%;
     background-repeat: no-repeat;
     background-position: 50%;
     max-width: 4500px;
@@ -11,7 +11,6 @@ body {
 }
 
 html, body {
-    position:flex;
     top:0;
     bottom:0;
     left:0;
@@ -41,24 +40,23 @@ html, body {
 
 header div {
     width: 203px;
-    border: 15px solid black;
+    border: 10px solid black;
     padding: 50px;
     margin: 20px;
+    background-color: white;
 
 }
 
 header nav {
-    display: flex;
     background-color: black;
+    margin: 0%;
 }
 
 nav a {
-    color:white;
     padding: 20px 20px;
     text-decoration: none;
     text-align: center; 
-    font-size: 25px;
-    display: flex;
+    color: white;
 }
 
 section {
@@ -67,11 +65,11 @@ section {
     padding: 50px;
     font-size: 25px;
     display: block;
-    border: 15px solid black;
+    border: 10px solid black;
     margin: 0%;
     background-image: url('../images/IMG_54967165ED75-1.jpeg');
     background-repeat: no-repeat;
-    background-size: 17%;
+    background-size: 12%;
     float: bottom;
 }
 
@@ -82,7 +80,7 @@ section {
 
 aside {
     float: right;
-    width: 30%;
+    width: 40%;
 }
 
 .footer-nav a {
@@ -94,6 +92,7 @@ aside {
 .footer-nav {
     display: flex;
     background-color: black;
+    padding-left: 40%;
 }
 
 code {
@@ -103,22 +102,24 @@ code {
     font-size: 18px;
     padding: 24px 15px;
     text-align: left;
-    border: 15px solid black;
+    border: 10px solid black;
     font-weight: bold;
     float: left;
+    margin: 15%;
 }
 
 article {
     background: white;
-    color: black;
     display: block;
     font-size: 18px;
     padding: 24px 15px;
     text-align: left;
-    border: 15px solid black;
+    border: 10px solid black;
     font-weight: bold;
     float: left;
+    margin: 5%;
 }
+
 
 header,
 aside,
@@ -129,4 +130,28 @@ margin: 0 1.5% 24px 1.5%;
 footer,
 header {
     clear: both;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .card {
+    width: 50%;
+    }
+}
+  /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+    .card {
+    width: 100%;
+    }
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
