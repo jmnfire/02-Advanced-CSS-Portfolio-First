@@ -12,7 +12,7 @@ NO installation required you can view the page. If you want to look at my code, 
 
 ## Usage
 
-![screenshot](assets/images/screencapture-file-Users-JovanNixon-Desktop-homework-01-HTML-CSS-and-GIT-Code-Refactor-index-html-2021-02-19-10_22_00-NEW.png)
+![screenshot](assets/images/screencapture-file-Users-JovanNixon-Desktop-Homework-02-Advanced-CSS-Portfolio-First-index-html-2021-02-25-23_06_33.png)
 
 
 ## License 
