@@ -77,8 +77,7 @@ section {
     margin: 0%;
     background-image: url('../images/IMG_54967165ED75-1.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 40vh;
 }
 
 #right {
@@ -138,7 +137,7 @@ header {
 .footer-nav {
     display: flex;
     background-color: black;
-    padding-left: 40%;
+    padding-left: 35%;
 }
 
 a {
@@ -195,7 +194,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 736px) {
     .right {
         color: white;
         display: block;
@@ -206,5 +205,9 @@ footer p {
     h2,
     h3 {
         color: white;
+    }
+
+    .section {
+        background-size: contain;
     }
 }
