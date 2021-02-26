@@ -77,7 +77,7 @@ section {
     margin: 0%;
     background-image: url('../images/IMG_54967165ED75-1.jpeg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 
@@ -195,7 +195,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 882px) {
+@media screen and (max-width: 414px) {
     .right {
         color: white;
         display: block;
