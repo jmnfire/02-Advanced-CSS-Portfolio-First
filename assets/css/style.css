@@ -1,5 +1,5 @@
 body {
-    background-color:lightgray;
+    background-color: lightgray;
     background-image: url('../images/Code\ img.png');
     background-size: 45%;
     background-repeat: no-repeat;
@@ -10,11 +10,42 @@ body {
     flex: 400px;
 }
 
-html, body {
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+html,
+body {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 0px !important;
+    width: 100% !important;
+}
+
+header div {
+    width: 203px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 100px 50px 40px 20px rgb(80, 83, 83);
 }
 
 .code-heading {
@@ -37,40 +68,17 @@ html, body {
     font-size: 90px;
 }
 
-
-header div {
-    width: 203px;
-    border: 10px solid black;
-    padding: 50px;
-    margin: 20px;
-    background-color: white;
-
-}
-
-header nav {
-    background-color: black;
-    margin: 0%;
-}
-
-nav a {
-    padding: 20px 20px;
-    text-decoration: none;
-    text-align: center; 
-    color: white;
-}
-
 section {
     flex: 1;
     background-color: white;
     padding: 50px;
     font-size: 25px;
-    display: block;
     border: 10px solid black;
     margin: 0%;
     background-image: url('../images/IMG_54967165ED75-1.jpeg');
     background-repeat: no-repeat;
-    background-size: 12%;
-    float: bottom;
+    background-size: contain;
+
 }
 
 #right {
@@ -81,18 +89,6 @@ section {
 aside {
     float: right;
     width: 40%;
-}
-
-.footer-nav a {
-    color:white;
-    font-size: 25px;
-    display: flex;
-}
-
-.footer-nav {
-    display: flex;
-    background-color: black;
-    padding-left: 40%;
 }
 
 code {
@@ -106,6 +102,7 @@ code {
     font-weight: bold;
     float: left;
     margin: 15%;
+    box-shadow: 100px 50px 40px 20px rgb(80, 83, 83);
 }
 
 article {
@@ -118,13 +115,13 @@ article {
     font-weight: bold;
     float: left;
     margin: 5%;
+    box-shadow: 100px 50px 40px 20px rgb(80, 83, 83);
 }
-
 
 header,
 aside,
 footer {
-margin: 0 1.5% 24px 1.5%;
+    margin: 0 1.5% 24px 1.5%;
 }
 
 footer,
@@ -132,26 +129,82 @@ header {
     clear: both;
 }
 
-
-
-@media screen and (max-width: 992px) {
-    .card {
-    width: 50%;
-    }
-}
-  /* Cards are stacked on top of each other at 768px or smaller */
-@media screen and (max-width: 768px) {
-    .card {
-    width: 100%;
-    }
-}
-
-header nav {
+.footer-nav a {
+    color: white;
+    font-size: 25px;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.footer-nav {
+    display: flex;
+    background-color: black;
+    padding-left: 40%;
 }
 
 a {
     color: black;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+}
+
+.button {
     text-decoration: none;
+    background: black;
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+    box-shadow: 0 15px 15px gray;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-me {
+        width: 100%;
+    }
+
+    .brand-name {
+        display: inline-flexbox;
+    }
+
+    .nix {
+        color: black;
+        display: block;
+        margin: 0%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    .right {
+        color: white;
+        display: block;
+        margin: 0%;
+        font-size: 1em;
+    }
+
+    h2,
+    h3 {
+        color: white;
+    }
 }
