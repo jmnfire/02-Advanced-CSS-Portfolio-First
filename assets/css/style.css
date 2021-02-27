@@ -182,8 +182,14 @@ footer p {
     font-size: 35px;
 }
 
-@media screen and (max-width: 768px) {
-    .about-me {
+@media screen and (max-width: 632px) {
+    .about {
+    width: 50%;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .about {
         width: 100%;
     }
 
@@ -209,8 +215,8 @@ footer p {
 
     @media screen and (max-width: 785px) {
         #links {
-            margin: auto;
-            width: auto;
+            margin: 10%;
+            width: 45%;
             padding: 0px;
         }
     }
