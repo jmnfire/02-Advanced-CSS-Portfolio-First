@@ -12,7 +12,7 @@ NO installation required you can view the page. If you want to look at my code, 
 
 ## Usage
 
-![screenshot](assets/images/screencapture-file-Users-JovanNixon-Desktop-Homework-02-Advanced-CSS-Portfolio-First-index-html-2021-02-25-23_06_33.png)
+![screenshot](assets/images/screencapture-file-Users-JovanNixon-Desktop-Homework-02-Advanced-CSS-Portfolio-First-index-html-2021-02-26-21_47_28.png)
 
 
 ## License 
