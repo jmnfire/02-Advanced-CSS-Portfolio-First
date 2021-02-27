@@ -83,6 +83,11 @@ section {
     background-size: contain;
 }
 
+h2,
+h3 {
+    color: black;
+}
+
 #right {
     text-align: right;
     justify-content: right;
@@ -149,7 +154,7 @@ footer p {
 .button {
     text-decoration: none;
     background: black;
-    padding: 15px 40px;
+    padding: 15px 0px;
     border-radius: 4px;
     font-weight: normal;
     text-transform: uppercase;
@@ -182,13 +187,9 @@ footer p {
     font-size: 35px;
 }
 
-@media screen and (max-width: 632px) {
-    .about {
-    width: 50%;
-    }
-}
+@media screen and (max-width: 1316px) {
 
-@media screen and (max-width: 632px) {
+    aside,
     .about {
         width: 100%;
     }
@@ -212,20 +213,20 @@ footer p {
         margin: 0%;
         font-size: 1em;
     }
+}
 
-    @media screen and (max-width: 785px) {
+@media screen and (max-width: 414px) {
         #links {
             margin: 10%;
             width: 45%;
             padding: 0px;
         }
     }
-
+@media screen and (max-width: 386px){
     h2,
     h3 {
         color: white;
     }
-
     .section {
         background-size: contain;
     }

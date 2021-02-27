@@ -1,8 +1,24 @@
 # 02-Advanced-CSS-Portfolio-First
 
 ## Description 
+I see this as an ever evolving project.  
+I wanted to make a profile page to showcase my projects and creativity. My motivation is to be different and more creative than the next student. Standing out.  
+During this project I used different elements by looking up new ways to create them.  Debugging often and starting over if needed.  
+I learned a lot durning this project and hope to continue evolving the page as I learn more throughout my time in this boot-camp course. In doing this profile page, I realized home much you can do using different tools on the web; there are so many was to be creative.  
 
 ## Table of Contents
+* [Features](#Features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Badges](#Badges)
+
+## Features
+- Span element
+- Media query
+- Target Link
+- Adjusting an image with-in HTML
+- Imaging links
 
 ## Installation 
 
