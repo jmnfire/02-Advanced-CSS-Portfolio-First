@@ -187,6 +187,10 @@ footer p {
     font-size: 35px;
 }
 
+.href {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1316px) {
 
     aside,
