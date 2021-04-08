@@ -122,8 +122,10 @@ article {
     border: 10px solid black;
     font-weight: bold;
     float: left;
-    margin: 5%;
+    margin-left: 5%;
+    width: 35%;
     box-shadow: 100px 50px 40px 20px rgb(80, 83, 83);
+    margin-bottom: 10%;
 }
 
 header,
@@ -150,7 +152,6 @@ footer p {
     font-size: 20px;
 }
 
-
 .button {
     text-decoration: none;
     background: black;
@@ -173,18 +174,25 @@ footer p {
 
 
 .out-line {
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
+    /* color: transparent;
+    -webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: #000;
     font-size: 40px;
     font-family: monospace;
 }
 
 .White-out-line {
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
+    /* color: transparent; */
+    /* -webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: white;
-    font-size: 35px;
+    font-size: 40px;
+}
+
+.assignment {
+    display: flex;
+    margin-top: 4em;
+    align-items: center;
+    flex-direction: column;
 }
 
 .href {
@@ -208,7 +216,14 @@ footer p {
         margin: 0%;
         font-size: 1em;
     }
+
+    article {
+        width: 85%;
+        margin: 5%;
+    }
+
 }
+
 
 @media screen and (max-width: 414px) {
     .right {
@@ -220,17 +235,20 @@ footer p {
 }
 
 @media screen and (max-width: 414px) {
-        #links {
-            margin: 10%;
-            width: 45%;
-            padding: 0px;
-        }
+    #links {
+        margin: 10%;
+        width: 45%;
+        padding: 0px;
     }
-@media screen and (max-width: 386px){
+}
+
+@media screen and (max-width: 386px) {
+
     h2,
     h3 {
         color: white;
     }
+
     .section {
         background-size: contain;
     }
