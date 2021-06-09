@@ -1,0 +1,82 @@
+:root{
+	--bootWarningGold: white;
+	--bootPrimaryBlue: #0d6efd;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #777;	
+}
+
+.navbar{
+	box-shadow: 0px 2px 0px  ;
+}
+
+.getStarted{
+	text-decoration: none;
+	font-family: 'Times', cursive;
+	color: var(--bootWarningGold) ;
+}
+.getStarted:hover {
+	color: var(--bootPrimaryBlue) ;
+	text-decoration: underline;
+}
+.getStarted:visited {
+	color: var(--bootWarningGold) ;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+  }
+  .bgimg-1 {
+    background-image: url("../images/coding1.jpeg");
+    min-height: 65%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("../images/coding2.jpeg");
+    min-height: 600px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("../images/coding3.jpeg");
+    min-height: 500px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 40px;
+    /* letter-spacing: 10px; */
+  }
+  
+  .borderCursive{
+      font-family: 'Times', cursive;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
