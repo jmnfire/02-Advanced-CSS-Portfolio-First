@@ -9,6 +9,7 @@ I learned a lot durning this project and hope to continue evolving the page as I
 ## Table of Contents
 * [Features](#Features)
 * [Installation](#installation)
+* [Questions](#Questions)
 * [Usage](#usage)
 * [License](#license)
 * [Badges](#Badges)
@@ -24,11 +25,22 @@ I learned a lot durning this project and hope to continue evolving the page as I
 
 NO installation required you can view the page. If you want to look at my code, do a git clone or my repository. 
 
-[Link to website](https://jmnfire.github.io/02-Advanced-CSS-Portfolio-First/)
+# Questions
+## GitHub User name 
+[Link to GitHub](https://github.com/jmnfire)
+
+[Link to website](https://jmnfire.github.io/02-Advanced-CSS-Portfolio-First/index.html)
+
+[Link to repository](https://github.com/jmnfire/02-Advanced-CSS-Portfolio-First)
+
+### Email 
+jovan.m.nixon@gmail.com
+
 
 ## Usage
+![screenshot](assets/images/screencapture2.png)
 
-![screenshot](assets/images/screencapture-file-Users-JovanNixon-Desktop-Homework-02-Advanced-CSS-Portfolio-First-index-html-2021-02-26-21_47_28.png)
+
 
 
 ## License 
@@ -53,4 +65,13 @@ SOFTWARE.
 
 ## Badges
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
